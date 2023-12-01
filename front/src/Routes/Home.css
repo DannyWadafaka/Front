@@ -1,0 +1,138 @@
+
+
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 11px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff0000;
+  }
+
+  .Frame01 {
+    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Estilos adicionales para tu div centrado */
+    width:700px
+    
+  }
+
+.Frame02{
+    background-color: rgb(0, 0, 0); 
+
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Estilos adicionales para tu div centrado */
+    border: 2px solid blueviolet;
+    width:1000px;
+    height: 400px
+}
+.Titutu{
+    color:azure;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+
+}
+.Titutu2{
+    color:azure;
+    position: absolute;
+    top: 50%;
+    left: 68%;
+}
+.Titutu4{
+    color:azure;
+    position: absolute;
+    top: 40%;
+    left: 68%;
+}
+
+.Frame07{
+    background-color: rgb(255, 255, 255); 
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Estilos adicionales para tu div centrado */
+    border: 2px solid blueviolet;
+    width:1000px;
+    height: 400px
+}
+
+input[type="number"] {
+    width: 450px;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: content-box;
+    
+  }
+
+.Btras{
+  color:azure;
+  position: absolute;
+  top: 90%;
+  left: 1%;
+
+}
+
+.id{
+  color:rgb(0, 0, 0);
+  position: auto;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+
+}
+.name{
+  color:rgb(0, 0, 0);
+  position: auto;
+  position: absolute;
+  top: 50%;
+  left: 14%;
+
+}
+.price{
+  color:rgb(0, 0, 0);
+  position: auto;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+
+}
+
+.quantity{
+  color:rgb(0, 0, 0);
+  position: auto;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+}
+
+.Frame07 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px; /* Ajusta según sea necesario */
+}
+
+/* Estilos para las filas */
+.Frame07 tbody tr {
+  border-bottom: 1px solid #ddd; /* Línea divisoria entre filas */
+}
+
+/* Estilos para las celdas */
+.Frame07 td {
+  padding: 8px;
+  text-align: left;
+}
