@@ -14,30 +14,7 @@
     background-color: #ff0000;
   }
 
-  .Frame01 {
-    
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
-    /* Estilos adicionales para tu div centrado */
-    width:700px
-    
-  }
-
-.Frame02{
-    background-color: rgb(0, 0, 0); 
-
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* Estilos adicionales para tu div centrado */
-    border: 2px solid blueviolet;
-    width:1000px;
-    height: 400px
-}
 .Titutu{
     color:azure;
     position: absolute;
@@ -58,24 +35,13 @@
     left: 68%;
 }
 
-.Frame07{
-    background-color: rgb(255, 255, 255); 
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* Estilos adicionales para tu div centrado */
-    border: 2px solid blueviolet;
-    width:1000px;
-    height: 400px
-}
-
-input[type="number"] {
+.input1[type="number"] {
     width: 450px;
     padding: 10px;
     margin: 8px 0;
     box-sizing: content-box;
+
+
     
   }
 
@@ -86,13 +52,61 @@ input[type="number"] {
   left: 1%;
 
 }
+.Btpago{
+  color:azure;
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  padding: 20px 17px;
+  border-radius: 5px;
+}
+.Bttarjeta{
+  color:azure;
+  position: absolute;
+  top: 40%;
+  left: 85%;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+.Btmas{
+  color:azure;
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  padding: 20px 5px;
+  border-radius: 5px;
+}
+.Btopc{
+  color:azure;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
 
+
+.Btique{
+  color:azure;
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+.Btclean{
+  color:azure;
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  
+}
 .id{
   color:rgb(0, 0, 0);
   position: auto;
   position: absolute;
-  top: 50%;
-  left: 3%;
+  top: 28%;
+  left: 10%;
 
 }
 .name{
@@ -108,7 +122,7 @@ input[type="number"] {
   position: auto;
   position: absolute;
   top: 50%;
-  left: 35%;
+  left: 33%;
 
 }
 
@@ -119,20 +133,111 @@ input[type="number"] {
   top: 50%;
   left: 70%;
 }
-
-.Frame07 {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px; /* Ajusta según sea necesario */
+.category{
+  color:rgb(0, 0, 0);
+  position: auto;
+  position: absolute;
+  top: 50%;
+  left: 87%;
 }
 
-/* Estilos para las filas */
-.Frame07 tbody tr {
-  border-bottom: 1px solid #ddd; /* Línea divisoria entre filas */
+.description{
+  color:rgb(0, 0, 0);
+  position: auto;
+  position: absolute;
+  top: 50%;
+  left: 52%;
 }
 
-/* Estilos para las celdas */
-.Frame07 td {
+.title01{
+  position: absolute;
+  top: 10%;
+  left: 22%;
+  font-size: x-large;
+}
+
+.SearchID {
+    
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Estilos adicionales para tu div centrado */
+  width:700px
+  
+}
+
+.Frame02{
+  background-color: rgb(0, 0, 0); 
+
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Estilos adicionales para tu div centrado */
+  border: 2px solid blueviolet;
+  width:1000px;
+  height: 400px
+}
+
+
+.respuesta{
   padding: 8px;
   text-align: left;
+
+}
+
+.table-container {
+  max-height: 100px; /* Ajusta la altura máxima según tus necesidades */
+  overflow-y: auto;
+}
+
+.Frame07 {
+  background-color: #f2f2f2;
+  width: 1000px;
+  height:400px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  position: absolute;
+  top: 35%;
+  left: 8%;
+  border-color: black;
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.Frame07 th,
+.Frame07 td {
+  border: 1px solid #3a3a3a;
+  padding: 8px;
+  text-align: left;
+}
+
+.Frame07 th {
+  background-color: #f2f2f2;
+}
+
+.Frame07 tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.Frame07 tfoot td {
+  font-weight: bold;
+}
+
+.cantidad{
+  width: 8px;
+  padding: 5px;
+  margin: 5px 5;
+}
+.input2{
+  width: 70px;
+  padding: 5px;
+  margin: 5px 5;
+  border: solid 1px black
+
+}
+
+.cliinput{
+  border: solid 1px black
 }

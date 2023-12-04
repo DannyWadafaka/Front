@@ -1,0 +1,47 @@
+
+
+div {
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: rgb(194, 255, 255);
+  }
+  
+  th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ffffff;
+  }
+  
+  tr:hover {
+    background-color: #ff0000;
+  }
+
+  .Binv{
+    color:azure;
+    position: absolute;
+    top: 2%;
+    left: 90%;
+    border-radius: 0;
+  }
+
+  .Bañadir{
+    position: absolute;
+    top: 30%;
+    left: 2.6%;
+    border-radius:0;
+
+  }

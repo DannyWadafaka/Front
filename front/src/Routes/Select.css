@@ -15,6 +15,11 @@
     position: absolute;
     top: 10%;
     left: 5%;
+    font-size: x-large;
+    text-align: center; /* Alinea el texto al centro */
+    text-shadow: 2px 2px 4px #000000; /* Agrega sombra al texto */
+    font-family: roboto;
+    line-height: 1.5; /* Ajusta la altura de la línea según sea necesario */
 }
 
 .balance{
@@ -30,6 +35,11 @@
     position: absolute;
     top: 10%;
     left: 38%;
+    font-size: x-large;
+    text-align: center; /* Alinea el texto al centro */
+    text-shadow: 2px 2px 4px #000000; /* Agrega sombra al texto */
+    font-family: roboto;
+    line-height: 1.5; /* Ajusta la altura de la línea según sea necesario */
 }
  
 .masopciones{
@@ -45,5 +55,11 @@
     position: absolute;
     top: 10%;
     left: 68%;
+    font-size: x-large;
+    text-align: center; /* Alinea el texto al centro */
+    text-shadow: 2px 2px 4px #000000; /* Agrega sombra al texto */
+    font-family: roboto;
+    line-height: 1.5; /* Ajusta la altura de la línea según sea necesario */
 
 }
+
